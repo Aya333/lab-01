@@ -46,3 +46,19 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+@media only screen and (min-width: 768px) {
+main {
+	margin: auto;
+	width: 960px;
+	align-items: center;
+}
+
+body {
+	margin: auto;
+	align-items: center;
+}
+}
