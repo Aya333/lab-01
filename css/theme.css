@@ -1,0 +1,41 @@
+header{
+    background-color: grey;
+    border-style: solid;
+    border-color: black;
+    border-radius: 1px;
+}
+aside{
+    background-color: grey;
+    border-style: solid;
+    border-color: black;
+    border-radius: 1px;
+}
+main .div1 p{
+    background-color: grey;
+
+}
+.div1{
+    border-style: solid;
+    border-color: black;
+    border-radius: 1px;
+}
+main .div2 p{
+    background-color: grey;
+    border-style: solid;
+    border-color: black;
+    border-radius:1px;
+}
+
+main .div3 p{
+    background-color: grey;
+    border-style: solid;
+    border-color: black;
+    border-radius: 1px;
+}
+
+footer{
+    background-color: grey;
+    border-style:solid;
+    border-color: black;
+    border-radius: 1px;
+}
