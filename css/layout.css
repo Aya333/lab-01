@@ -1,0 +1,32 @@
+body{
+  width: 768px;
+  height: 960px;
+
+}
+header{
+width: 960px;
+height: 100px;
+}
+
+main .div1 p{
+    width: 380px;
+    height: 200px;
+}
+main .div2 p{
+    width: 380px;
+    height: 200px;
+}
+
+main .div3 p{
+    width: 190px;
+    height: 250px;
+    float:center;
+}
+aside{
+width: 200px;
+height: 600px;
+}
+footer{
+    width: 760px;
+    height: 150px;
+}
