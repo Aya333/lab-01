@@ -4,24 +4,24 @@ body p{
     padding-top: 50 px;
 }
 header{
-    background-color: grey;
+    /* background-color: grey; */
     border-style: solid;
     border-color: black;
     border-radius: 1px;
     border-width: 2px;
 }
 .div4{
-    background-color: grey;
+    /* background-color: grey; */
     border-style: solid;
     border-color: black;
     border-radius: 1px;
     border-width: 2px;
 
 }
-main .div1 p{
+/* main .div1 p{
     background-color: grey;
 
-}
+} */
 .div1{
     border-style: solid;
     border-color: black;
@@ -35,13 +35,13 @@ main .div1 p{
     border-radius: 1px;
     border-width: 2px;
 }
-main .div2 p{
+/* main .div2 p{
     background-color: grey;
-}
+} */
 
 
 main .div3 p{
-    background-color: grey;
+    /* background-color: grey; */
     border-style: solid;
     border-color: black;
     border-radius: 1px;
@@ -50,7 +50,6 @@ main .div3 p{
 }
 
 footer{
-    background-color: grey;
     border-style:solid;
     border-color: black;
     border-radius: 1px;
