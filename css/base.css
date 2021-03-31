@@ -49,16 +49,33 @@ table {
 * {
     box-sizing: border-box;
     text-align: center;
+  
 }
 @media only screen and (min-width: 768px) {
 main {
 	margin: auto;
 	width: 960px;
-	align-items: center;
+	/* align-items: center; */
 }
 
 body {
-	margin: auto;
-	align-items: center;
+	margin:auto;
+	width: 768px;
+	height: 960px;
 }
+
+
+
+@media only screen and (max-width: 767px) {
+        body {
+        margin: auto;
+        align-items: center;
+    }
+
+    main {
+        margin: auto;
+        width: 480px;
+        align-items: center;
+    }
+    
 }
