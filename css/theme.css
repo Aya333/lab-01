@@ -1,65 +1,72 @@
+/* ************* MOBILE VIEW *********** */
 
     @media only screen and (min-width: 768px) {
-        header{
+        .a{
             /* background-color: #1CA7EC;*/
             background-image: linear-gradient(to right, #11a3ec , #1F2F98);
+           
         }
-        .div4{
+        .b{
             /* background-color: #787FF6; */
             /* background-image: linear-gradient(to bottom, #67c8eb , #5d61b8); */
             background-image: linear-gradient(to bottom, #4ADEDE , #575bb6);
-        
+           
         
         }
-        footer{
+        .i{
             /* background-color: #1CA7EC; */
             background-image: linear-gradient(to right, #11a3ec , #1F2F98);
-        
+           
         
         }
-        .div1 p{
+        .c{
             /* background-color: #7BD5F5; */
             background-image: linear-gradient(to right, #7BD5F5 , #787FF6);
         
         }
-        .div2 p{
+        .d {
             /* background-color: #7BD5F5; */
             background-image: linear-gradient(to left, #7BD5F5 , #787FF6);
         
         }
-        .div3 p{
+        .left , .right{
             /* background-color: #4ADEDE; */
             background-image: linear-gradient(to top, #4ADEDE , #0c7db6ce);
         
         }
         }
         
+/* ************* DESKTOP VIEW *********** */
+
         @media only screen and (max-width: 767px) {
-            header{
+            .a{
               
                 background-image: linear-gradient(to right, #B6B4C2 , #E5C1CD);
             }
-            .div4{
+            .b{
                
                 background-image: linear-gradient(to bottom, #C9BBC8 , #AAC9CE);
             
             
             }
-            footer{
+            .i{
                 background-image: linear-gradient(to right, #B6B4C2 , #E5C1CD);
             }
-            .div1 p{
+            .c{
                 background-image: linear-gradient(to bottom, #F3DBCF , #B6B4C2);
             
             }
-            .div2 p{
+            .d{
                 /* background-color: #7BD5F5; */
                 background-image: linear-gradient(to top, #F3DBCF , #B6B4C2);
             
             }
-            .div3 p{
+            .left , .right{
                 background-image: linear-gradient(to top, #E5C1CD , #f1cfbe);
             
             }
         }
         
+
+
+
