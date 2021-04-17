@@ -1,63 +1,66 @@
-@media only screen and (min-width: 768px) {
-header{
-    /* background-color: #1CA7EC;*/
-    background-image: linear-gradient(to right, #11a3ec , #1F2F98);
+
+/* ************* MOBILE VIEW *********** */
+body {
+    background-color: white;
 }
-.div4{
-    /* background-color: #787FF6; */
-    /* background-image: linear-gradient(to bottom, #67c8eb , #5d61b8); */
-    background-image: linear-gradient(to bottom, #4ADEDE , #575bb6);
-
-
+div {
+    background-color: #d8d8d8;
 }
-footer{
-    /* background-color: #1CA7EC; */
-    background-image: linear-gradient(to right, #11a3ec , #1F2F98);
-
-
-}
-.div1 p{
-    /* background-color: #7BD5F5; */
-    background-image: linear-gradient(to right, #7BD5F5 , #787FF6);
-
-}
-.div2 p{
-    /* background-color: #7BD5F5; */
-    background-image: linear-gradient(to left, #7BD5F5 , #787FF6);
-
-}
-.div3 p{
-    /* background-color: #4ADEDE; */
-    background-image: linear-gradient(to top, #4ADEDE , #0c7db6ce);
-
-}
+aside {
+    background-color: #d8d8d8;
 }
 
+/* for mobile  */
 @media only screen and (max-width: 767px) {
-    header{
-      
-        background-image: linear-gradient(to right, #B6B4C2 , #E5C1CD);
+
+    div {
+        border: 1px solid #4e4e4e;
     }
-    .div4{
-       
-        background-image: linear-gradient(to bottom, #C9BBC8 , #AAC9CE);
-    
-    
+
+    .b { 
+        border: 1px solid #4e4e4e;
+        border-top: none;
     }
-    footer{
-        background-image: linear-gradient(to right, #B6B4C2 , #E5C1CD);
+
+    .c , .d ,.i{
+        border-top: none;
     }
-    .div1 p{
-        background-image: linear-gradient(to bottom, #F3DBCF , #B6B4C2);
-    
+
+    .e , .f ,.g, .h{
+        border-top: none;
     }
-    .div2 p{
-        /* background-color: #7BD5F5; */
-        background-image: linear-gradient(to top, #F3DBCF , #B6B4C2);
-    
+
+    .f ,.h {
+        border-left: none;
     }
-    .div3 p{
-        background-image: linear-gradient(to top, #E5C1CD , #f1cfbe);
-    
+
+    .i {
+        background-color: #d8d8d8;
     }
+
 }
+
+/* ************* DESKTOP VIEW *********** */
+@media only screen and (min-width: 768px) {
+ 
+    div {
+        border: 1px solid #4e4e4e;
+    }
+    
+    .b { 
+        border: 1px solid #4e4e4e;
+        border-top: none;
+        border-right: none;
+    }
+
+    .c , .d ,.i ,.e ,.f, .g , .h{
+        border-top: none;
+    }
+
+    .d , .f , .h ,.g {
+        border-left:none ;
+    }
+
+}
+
+

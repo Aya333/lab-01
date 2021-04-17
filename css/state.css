@@ -1,10 +1,11 @@
-/* DESKTOP VIEW  */
-@media only screen and (min-width: 768px) {
- 
-    
-}
-/* MOBILE VIEW */
+/* ************* MOBILE VIEW *********** */
 @media only screen and (max-width: 767px) {
 
+    
+}
+
+/* ************* DESKTOP VIEW *********** */
+ @media only screen and (min-width: 768px) {
+ 
     
 }
